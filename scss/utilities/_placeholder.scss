@@ -1,6 +1,26 @@
 //create placeholders for at least the following:
 
 //Links
+%link_col--8 {
+    color: $secondary-color-text;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+%anchor_nav_items {
+   font-family: $font-stack-primary;
+   color: $primary-color-text;
+   font-size: $font-size;
+}
+
+%anchor_nav_items:hover {
+    background-color: $hover-color;
+}
+
+%anchor_nav_items:focus {
+    color: $focus-color;
+}
+
 //Images
 //Headlines
 //Nav items
