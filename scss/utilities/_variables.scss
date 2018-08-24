@@ -1,3 +1,16 @@
 //Create a partial for variables in your utilities folder
 //Use this partial to create variables for your repeated values. At minimum, create variables for fonts, breakpoints, and colors. Import this partial into your utilities/index.scss file
+//Colors
 $hover-color: #7eddc2;
+$focus-color: white;
+$primary-color-text: grey;
+$secondary-color-text: #7eddc2;
+
+//Fonts
+$font-stack-primary: 'Arial';
+$font-stack_secondary: 'Italic';
+
+// Breakpoints
+$break-S: 480px; //mobile_layout
+$break-L: 14000px; //desktop_layout
+
