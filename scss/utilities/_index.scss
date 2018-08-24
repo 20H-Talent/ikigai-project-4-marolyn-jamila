@@ -1,8 +1,9 @@
-//imports
+//import
 
-@import '_extend.scss',
+@import '_variables.scss',
+        '_extends.scss',
         '_functions.scss',
         '_mixins.scss',
-        '_placeholder.scss',
-        'variables.scss';
+        '_placeholder.scss';
+        
         
