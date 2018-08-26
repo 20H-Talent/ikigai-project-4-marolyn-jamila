@@ -20,21 +20,13 @@ ul {
   margin: 2.5em 0;
 }
 
-.grid__row {
-  text-align: center;
-}
-
 ul {
   list-style: none;
   padding: 0;
-  width: 480px;
 }
 
-li {
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.nav__item {
+  width: 300px;
 }
 
 p {
@@ -42,4 +34,4 @@ p {
   font-size: 1.25em;
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=styles,css.map */
