@@ -20,24 +20,24 @@ ul {
   margin: 2.5em 0;
 }
 
+<<<<<<< HEAD
 .grid__col--3 {
   text-align: center;
 }
 
+=======
+>>>>>>> 0a15f52f5cc6b4071c9f348ece68d2b5e2fe7207
 ul {
   padding: 0;
-  width: 480px;
 }
 
-li {
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.nav__item {
+  width: 300px;
 }
 
 p {
   margin: 4em 0;
+<<<<<<< HEAD
   font-size: 1.15em;
   color: darkgrey;
   font-family: "Lato", sans-serif;
@@ -46,6 +46,11 @@ p {
 a {
   text-decoration: none;
   color: grey;
+=======
+  font-size: 1.25em;
+  color: darkgrey;
+  font-family: "Lato", sans-serif;
+>>>>>>> 0a15f52f5cc6b4071c9f348ece68d2b5e2fe7207
 }
 
 /*# sourceMappingURL=styles.css.map */
