@@ -22,19 +22,27 @@ ul {
 }
 
 //logo
+
 .img--logo {
     margin: 2.5em 0;
 }
 //list
 
+.grid__row {
+    text-align: center;
+}
 ul {
     list-style: none;
     padding: 0;
-}
-.nav__item {
-    width: 300px;
+    width: 480px;
 }
 
+li {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 //paragraph
 
 p {
