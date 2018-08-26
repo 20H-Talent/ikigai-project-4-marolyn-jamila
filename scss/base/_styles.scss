@@ -2,16 +2,34 @@
 //the universal selector (*)
 //ul elements
 //p elements
-body {
+* {
+    margin: 0;
+    border:0;
+}
+
+ul {
+    list-style: none;
+}
+
+//placeholders extends
+
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0;
-    border:0;
 }
 
 //logo
 .img--logo {
     margin: 2.5em 0;
+}
+//list
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+.nav__item {
+    width: 350px;
 }

@@ -1,11 +1,18 @@
 @import '_normalize.css';
-body {
+* {
+  margin: 0;
+  border: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0;
-  border: 0;
 }
 
 .img--logo {
