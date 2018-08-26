@@ -13,10 +13,20 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0 5em;
 }
 
 .img--logo {
   margin: 2.5em 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.nav__item {
+  width: 300px;
 }
 
 /*# sourceMappingURL=styles.css.map */
