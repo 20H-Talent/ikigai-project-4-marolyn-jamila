@@ -22,32 +22,24 @@ ul {
 }
 
 //logo
-
 .img--logo {
     margin: 2.5em 0;
 }
 //list
 
-.grid__row {
-    text-align: center;
-}
 ul {
     list-style: none;
     padding: 0;
-    width: 480px;
+}
+.nav__item {
+    width: 300px;
 }
 
-li {
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 //paragraph
 
 p {
     margin: 4em 0;
-    font-size: 1.15em;
+    font-size: 1.25em;
     color: darkgrey;
-    font-family: 'Lato', sans-serif;
+    font-family: $font-stack-primary;
 }

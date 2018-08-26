@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"version":3,"sourceRoot":"","sources":["../scss/base/_index.scss","../scss/base/_styles.scss"],"names":[],"mappings":"AACQ;ACGR;EACI;EACA;;;AAGJ;EACI;;;AAKJ;EACI;EACA;EACA;EACA;EACA;;;AAIJ;EACI;;;AAIJ;EACI;EACA;;;AAEJ;EACI;;;AAKJ;EACI;EACA;EACA;EACA","file":"styles.css"}
-=======
-{"version":3,"sourceRoot":"","sources":["../scss/base/_index.scss","../scss/base/_styles.scss"],"names":[],"mappings":"AACQ;ACGR;EACI;EACA;;;AAGJ;EACI;;;AAKJ;EACI;EACA;EACA;EACA;EACA;;;AAKJ;EACI;;;AAIJ;EACI;;;AAEJ;EACI;EACA;EACA;;;AAGJ;EACI;EACA;EACA;EACA;;;AAIJ;EACI;EACA","file":"styles.css"}
->>>>>>> cc3dae777a4eab4e2f8fdedf63a0bd3c0cb2b2ee
+{"version":3,"sourceRoot":"","sources":["../scss/base/_index.scss","../scss/base/_styles.scss","../scss/utilities/_1variables.scss"],"names":[],"mappings":"AACQ;ACGR;EACI;EACA;;;AAGJ;EACI;;;AAKJ;EACI;EACA;EACA;EACA;EACA;;;AAIJ;EACI;;;AAIJ;EACI;EACA;;;AAEJ;EACI;;;AAKJ;EACI;EACA;EACA;EACA,aClCgB","file":"styles.css"}
