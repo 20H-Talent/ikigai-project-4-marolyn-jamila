@@ -28,7 +28,7 @@ ul {
 }
 //list
 
-.grid__row {
+.grid__col--3 {
     text-align: center;
 }
 ul {
@@ -46,5 +46,7 @@ li {
 
 p {
     margin: 4em 0;
-    font-size: 1.25em;
+    font-size: 1.15em;
+    color: darkgrey;
+    font-family: 'Lato', sans-serif;
 }

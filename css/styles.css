@@ -20,7 +20,7 @@ ul {
   margin: 2.5em 0;
 }
 
-.grid__row {
+.grid__col--3 {
   text-align: center;
 }
 
@@ -38,7 +38,14 @@ li {
 
 p {
   margin: 4em 0;
-  font-size: 1.25em;
+  font-size: 1.15em;
+  color: darkgrey;
+  font-family: "Lato", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
 }
 
 /*# sourceMappingURL=styles.css.map */
