@@ -60,10 +60,7 @@ p {
 
 .grid__col--12 p {
   margin: 4em 0;
-<<<<<<< HEAD
   font-size: 1.25em;
-=======
-<<<<<<< HEAD
 }
 
 .grid__col--8 p {
@@ -116,10 +113,7 @@ p {
   font-style: italic;
   border-left: 0.4em #58E1C1 solid;
   border-radius: 2%;
-=======
-<<<<<<< HEAD
   font-size: 1.15em;
->>>>>>> a782d5e2870abe17ed5dfe7579e341ef1879d7d7
   color: darkgrey;
   font-family: "Lato", sans-serif;
 }
@@ -128,7 +122,6 @@ a {
   text-decoration: none;
   list-style-type: none;
   color: grey;
-<<<<<<< HEAD
 }
 
 .nav__item:focus {
@@ -137,14 +130,8 @@ a {
   border-radius: 5px;
   outline: none;
   margin: 0 30px;
-=======
-=======
   font-size: 1.25em;
-  color: darkgrey;
   font-family: "Lato", sans-serif;
->>>>>>> 0a15f52f5cc6b4071c9f348ece68d2b5e2fe7207
->>>>>>> 454f2116b45bffb4cc1df2274490e598d7fb5724
->>>>>>> a782d5e2870abe17ed5dfe7579e341ef1879d7d7
 }
 
 /*# sourceMappingURL=styles.css.map */
