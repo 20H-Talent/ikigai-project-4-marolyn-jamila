@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .card .link {
   color: #51DDFC;
   font-weight: bold;
@@ -438,8 +437,41 @@ template {
   text-align: center;
 }
 
-.grid__col--12 {
-  background-color: trº;
+.grid__col--12.theme__colors {
+  background-color: #7eddc2;
+}
+
+.grid__col--6.theme__colors {
+  background-color: #03a6ca;
+}
+
+.grid__col--4.theme__colors {
+  background-color: #83e7fd;
+}
+
+.grid__col--3.theme__colors {
+  background-color: #dad2ea;
+}
+
+.grid__col--5.theme__colors {
+  background-color: #c3ebcf;
+}
+
+.grid__col--7.theme__colors {
+  background-color: #f9e0e1;
+}
+
+.grid__col--8.theme__colors {
+  background-color: #feddd4;
+}
+
+.grid__col--12.theme__colors,
+.grid__col--6.theme__colors,
+.grid__col--4.theme__colors,
+.grid__col--3.theme__colors,
+.grid__col--5.theme__colors,
+.grid__col--8.theme__colors {
+  width: 400px;
 }
 
 .img--logo {
