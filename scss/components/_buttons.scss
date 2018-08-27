@@ -1,8 +1,9 @@
 
 //button for the form
 
-@each $color-btn in $btn-color {
-    .btn--#{$color-btn} {
-        background-color: $btn-color;
+
+@each $style, $color in $btn-color {
+    .btn--#{$style}{
+        background-color: $color;
     }
 }
