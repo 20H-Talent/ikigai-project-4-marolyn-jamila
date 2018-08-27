@@ -7,11 +7,6 @@
     border:0;
 }
 
-//list
-
-.grid__col--3 {
-    text-align: center;
-}
 ul {
     padding: 0;
     width: 480px;
@@ -22,6 +17,7 @@ li {
     @include list;
     align-items: center;
     height: 40px;
+    font-size:1.2em;
 }
 
 //paragraphs
