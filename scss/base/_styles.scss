@@ -7,22 +7,6 @@
     border:0;
 }
 
-
-//placeholders extends
-
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0 2.5em;
-}
-
-//logo
-.img--logo {
-    margin: 2.5em 0;
-}
-
 //list
 
 .grid__col--3 {
@@ -49,19 +33,5 @@ p {
     font-family: $font-stack-primary;
 }
 
-.grid__col--12 p {
-    margin: 4em 0;
-}
 
-.grid__col--8 p {
-    margin: 1.5em 0;
-}
-
-//title
-
-.headline--primary {
-    margin: 10px;
-    color: $hover-color;
-    font-size: 2.5em;
-}
 
