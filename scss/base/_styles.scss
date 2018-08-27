@@ -14,9 +14,13 @@ ul {
 }
 
 li {
+<<<<<<< HEAD
     @extend %anchor_nav_items;
     display: flex;
     justify-content: center;
+=======
+    @include list;
+>>>>>>> d198acf6296cb9146392272b18fb2cbeb453eb35
     align-items: center;
     height: 50px;
     font-size: 1em;

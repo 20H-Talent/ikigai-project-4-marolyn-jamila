@@ -7,3 +7,13 @@
 
 
 //Flexbox settings
+
+//Form 
+@mixin form {
+    display: flex;
+    flex-direction: column;
+}
+@mixin list {
+    display: flex;
+    justify-content: center;
+}
