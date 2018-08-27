@@ -18,10 +18,7 @@ li {
     @extend %anchor_nav_items;
     display: flex;
     justify-content: center;
-<<<<<<< HEAD
     
-=======
->>>>>>> b615eb659afb7b273247c040928e05ea1c5897bb
     @include list;
     align-items: center;
     height: 50px;
