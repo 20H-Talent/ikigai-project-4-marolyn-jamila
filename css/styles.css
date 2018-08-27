@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .card .link {
   color: #51DDFC;
   font-weight: bold;
@@ -435,6 +436,10 @@ template {
 
 .grid__col--3 {
   text-align: center;
+}
+
+.grid__col--12 {
+  background-color: trº;
 }
 
 .img--logo {
