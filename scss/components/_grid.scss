@@ -16,7 +16,9 @@
 .grid__col--4.theme__colors,
 .grid__col--3.theme__colors,
 .grid__col--5.theme__colors,
-.grid__col--8.theme__colors { 
+.grid__col--8.theme__colors,
+.grid__col--7.theme__colors { 
     width: 400px;
+    @include grids;
 }
   

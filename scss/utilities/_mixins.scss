@@ -17,3 +17,9 @@
     display: flex;
     justify-content: center;
 }
+
+@mixin grids {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
