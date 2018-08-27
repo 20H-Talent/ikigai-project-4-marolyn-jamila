@@ -5,4 +5,8 @@
     text-align: center;
 }
 
-
+@each $grid_co, $shade in $grid_colors {
+    .grid__col--#{$grid_co} {
+        background-color: $shade;
+    }
+}

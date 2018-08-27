@@ -437,6 +437,34 @@ template {
   text-align: center;
 }
 
+.grid__col--12 {
+  background-color: #7eddc2;
+}
+
+.grid__col--6 {
+  background-color: darkner(#51DDFC, 25%);
+}
+
+.grid__col--4 {
+  background-color: #83e7fd;
+}
+
+.grid__col--3 {
+  background-color: #dad2ea;
+}
+
+.grid__col--5 {
+  background-color: #c3ebcf;
+}
+
+.grid__col--7 {
+  background-color: #f9e0e1;
+}
+
+.grid__col--8 {
+  background-color: #feddd4;
+}
+
 .img--logo {
   margin: 2.5em 0;
 }
