@@ -6,6 +6,12 @@
   text-decoration: none;
 }
 
+.img--avatar {
+  width: 200px;
+  height: 200px;
+  margin: auto 100px;
+}
+
 .theme__colors {
   text-decoration: none;
   width: 100%;
@@ -23,10 +29,6 @@
   border: 0;
 }
 
-.grid__col--3 {
-  text-align: center;
-}
-
 ul {
   padding: 0;
   width: 480px;
@@ -38,6 +40,7 @@ li {
   justify-content: center;
   align-items: center;
   height: 40px;
+  font-size: 1.2em;
 }
 
 p {
@@ -83,6 +86,10 @@ p {
   font-size: 1em;
 }
 
+.grid__col--3 {
+  text-align: center;
+}
+
 .grid__col--8 p {
   margin: 1.5em 0;
 }
@@ -96,13 +103,10 @@ p {
 }
 
 .img--frame {
-  width: 100%;
+  width: 90%;
   padding: 1em;
   border: 1px solid #d9d9d9;
-}
-
-.img--avatar {
-  text-align: center;
+  margin-bottom: 20px;
 }
 
 a {

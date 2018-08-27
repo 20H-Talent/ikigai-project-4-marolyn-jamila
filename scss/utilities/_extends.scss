@@ -4,5 +4,10 @@
     //This is the link that goes in blue in the second paragraph
 }
 .theme__colors {
-    @extend %btn-anch
+    @extend %btn-anch;
 }
+
+.img--avatar {
+    @extend %circle_images;
+}
+
