@@ -5,6 +5,13 @@
     text-align: center;
 }
 
+<<<<<<< HEAD
 .grid__col--12 {
     background-color: transparent;
+=======
+@each $grid_co, $shade in $grid_colors {
+    .grid__col--#{$grid_co} {
+        background-color: $shade;
+    }
+>>>>>>> 09584eb6edff39b0ab7152cb101b5b8ec7abbd07
 }
