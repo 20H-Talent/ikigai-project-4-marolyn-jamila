@@ -17,8 +17,11 @@ li {
     @extend %anchor_nav_items;
     display: flex;
     justify-content: center;
+<<<<<<< HEAD
     
     @include list;
+=======
+>>>>>>> 841d66701690529e33060cf103355167e48170fd
     align-items: center;
     height: 50px;
     font-size: 1em;
