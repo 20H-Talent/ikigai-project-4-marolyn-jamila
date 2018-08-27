@@ -61,6 +61,7 @@ p {
   font-size: 1.2em;
   color: #8c969d;
   font-family: "Neue Helvetica";
+  margin: 1.5em 0;
 }
 
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
@@ -434,14 +435,6 @@ template {
 
 .grid__col--3 {
   text-align: center;
-}
-
-.grid__col--8 p {
-  margin: 1.5em 0;
-}
-
-.grid__col--12 p {
-  margin: 4em 0;
 }
 
 .img--logo {
