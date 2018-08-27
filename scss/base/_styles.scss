@@ -14,11 +14,12 @@ ul {
 }
 
 li {
+    @extend %anchor_nav_items;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40px;
-    font-size:1.2em;
+    height: 50px;
+    font-size: 1em;
 }
 
 //paragraphs
