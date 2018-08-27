@@ -18,7 +18,7 @@ li {
     @extend %anchor_nav_items;
     display: flex;
     justify-content: center;
-    @include list;
+    @include list
     align-items: center;
     height: 50px;
     font-size: 1em;
