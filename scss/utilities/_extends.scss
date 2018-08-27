@@ -1,0 +1,8 @@
+//link of the paragraph
+.card .link {
+    @extend %link_col--8;
+    //This is the link that goes in blue in the second paragraph
+}
+.theme__colors {
+    @extend %btn-anch
+}

@@ -4,7 +4,8 @@
 %link_col--8 {
     color: $secondary-color-text;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.15em;
+    text-decoration: none;
 }
 
 %anchor_nav_items {
@@ -28,8 +29,14 @@
 //buttons
 %btn-anch {
     text-decoration: none;
-    width: 90%;
-    height: 15px;
+    width: 100%;
+    height: 2.7em;
+    border-radius: 0.2em;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1em;
+    margin: 0.7em 0;
 }
 //Components
    

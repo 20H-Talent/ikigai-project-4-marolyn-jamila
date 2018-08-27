@@ -33,18 +33,31 @@ ul {
     margin: 0 20px;
 }
 
+<<<<<<< HEAD
 li {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 40px;
+=======
+.nav__item {
+    width: 300px;
+>>>>>>> a782d5e2870abe17ed5dfe7579e341ef1879d7d7
 }
 
-//paragraph
+//paragraphs
 
 p {
-    margin: 4em 0;
-    font-size: 1.25em;
-    color: darkgrey;
+    font-size: 1.2em;
+    color: 	#8c969d;
     font-family: $font-stack-primary;
 }
+
+.grid__col--12 p {
+    margin: 4em 0;
+}
+
+.grid__col--8 p {
+    margin: 1.5em 0;
+}
+
