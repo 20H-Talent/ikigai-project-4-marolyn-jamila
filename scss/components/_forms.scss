@@ -1,0 +1,20 @@
+//form display
+.form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+//form label
+.form__label--hidden {
+    visibility: hidden;
+}
+
+//form input
+.form__input {
+    border-bottom: 0.5em #7eddc2 solid;
+    padding: 0.5em 0em;
+    padding-left: 0.8em;
+    margin: 0.8em 0;
+    font-size: 1em;
+}

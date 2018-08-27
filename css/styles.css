@@ -1,4 +1,23 @@
 @import '_normalize.css';
+.card .link {
+  color: #51DDFC;
+  font-weight: bold;
+  font-size: 1.15em;
+  text-decoration: none;
+}
+
+.theme__colors {
+  text-decoration: none;
+  width: 100%;
+  height: 2.7em;
+  border-radius: 0.2em;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1em;
+  margin: 0.7em 0;
+}
+
 * {
   margin: 0;
   border: 0;
@@ -30,10 +49,65 @@ ul {
 }
 
 p {
+  font-size: 1.2em;
+  color: #8c969d;
+  font-family: "Neue Helvetica";
+}
+
+.grid__col--12 p {
   margin: 4em 0;
-  font-size: 1.25em;
-  color: darkgrey;
-  font-family: "Lato", sans-serif;
+}
+
+.grid__col--8 p {
+  margin: 1.5em 0;
+}
+
+.btn--default {
+  background-color: #51DDFC;
+}
+
+.btn--success {
+  background-color: #63CC82;
+}
+
+.btn--error {
+  background-color: #E4757A;
+}
+
+.btn--warning {
+  background-color: #FD7856;
+}
+
+.btn--info {
+  background-color: #927BC1;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__label--hidden {
+  visibility: hidden;
+}
+
+.form__input {
+  border-bottom: 0.5em #7eddc2 solid;
+  padding: 0.5em 0em;
+  padding-left: 0.8em;
+  margin: 0.8em 0;
+  font-size: 1em;
+}
+
+.blockquote {
+  margin: 1em 2em;
+  padding-left: 1em;
+  font-size: 1.5em;
+  font-family: "Neue Helvetica";
+  color: #8c969d;
+  font-style: italic;
+  border-left: 0.4em #58E1C1 solid;
+  border-radius: 2%;
 }
 
 /*# sourceMappingURL=styles.css.map */
