@@ -3,4 +3,14 @@
 
 a {
     text-decoration: none;
+    list-style-type: none;
+    color: $primary-color-text; 
 }
+
+.nav__item:focus { 
+        color: white;
+        background-color: $secondary-color-text;
+        border-radius: 5px;
+        outline: none;
+        margin: 0 30px;
+    }

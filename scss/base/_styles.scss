@@ -7,9 +7,6 @@
     border:0;
 }
 
-ul {
-    list-style: none;
-}
 
 //placeholders extends
 
@@ -32,9 +29,15 @@ ul {
 }
 ul {
     padding: 0;
+    width: 480px;
+    margin: 0 20px;
 }
-.nav__item {
-    width: 300px;
+
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
 }
 
 //paragraph
