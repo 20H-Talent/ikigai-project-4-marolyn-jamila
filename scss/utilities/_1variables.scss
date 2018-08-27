@@ -25,3 +25,14 @@ $btn-color: (
     'info': #927BC1,
     ) ;
 
+//grid colors
+
+$Grid_colors: (
+    '12' :#7eddc2,
+    '6' : darkner(#51DDFC, 25%),
+    '4' : lighten(#51DDFC, 10%),
+    '3' : lighten(#927BC1, 25%),
+    '5' : lighten(#63CC82, 25%),
+    '7' : lighten(#E4757A, 25%),
+    '8' : lighten(#FD7856, 25%),
+);
