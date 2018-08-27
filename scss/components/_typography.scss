@@ -1,9 +1,7 @@
-
-//placeholders extends
+//body
 
 .container {
-    display: flex;
-    flex-direction: column;
+    @include form;
     justify-content: center;
     align-items: center;
     margin: 0 2.5em;

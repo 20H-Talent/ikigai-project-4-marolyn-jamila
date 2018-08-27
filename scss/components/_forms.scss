@@ -1,7 +1,6 @@
 //form display
 .form {
-    display: flex;
-    flex-direction: column;
+ @include form;
 
 }
 
