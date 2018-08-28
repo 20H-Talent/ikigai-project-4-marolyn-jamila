@@ -1,6 +1,13 @@
 //Inside your mixins partial, you’ll want to create mixins for:
 
 //Media Queries
+@mixin media {
+    @media (min-width: $break-L) {
+        display: flex;
+    }
+}
+
+//LOGO AND NAV ITEMS
 
 
 //Flexbox settings

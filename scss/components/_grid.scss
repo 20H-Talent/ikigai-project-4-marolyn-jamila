@@ -26,6 +26,9 @@
 }
 
 
+//media querie for desktop
 .grid__row {
-    margin-bottom: 2em; 
+    margin-bottom: 2em;
+    @include media;
+    
 }
