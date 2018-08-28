@@ -420,6 +420,14 @@ template {
   background-color: #927BC1;
 }
 
+.btn--default,
+.btn--success,
+.btn--error,
+.btn--warning,
+.btn--info {
+  font-family: "Arial", sans-serif;
+}
+
 .form {
   display: flex;
   flex-direction: column;
@@ -487,7 +495,7 @@ template {
 }
 
 .grid__row {
-  background-color: yellow;
+  margin-bottom: 2em;
 }
 
 .img--logo {
