@@ -7,3 +7,10 @@
         background-color: $color;
     }
 }
+.btn--default,
+.btn--success,
+.btn--error,
+.btn--warning,
+.btn--info {
+    font-family: 'Arial', sans-serif;
+}

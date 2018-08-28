@@ -425,7 +425,7 @@ template {
 .btn--error,
 .btn--warning,
 .btn--info {
-  font-family: "Arial", sans-serif;
+  font-family: "Arial";
 }
 
 .form {
@@ -550,4 +550,4 @@ a {
   font-weight: normal;
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=style.css.map */
