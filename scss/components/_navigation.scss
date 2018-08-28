@@ -8,4 +8,9 @@ a {
     @extend %anchor_nav_items;
 }
 
+//main nav
+.nav {
+    margin-bottom: 4em;
+    @include header;
+}
 

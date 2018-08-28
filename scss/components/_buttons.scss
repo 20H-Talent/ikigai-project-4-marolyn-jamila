@@ -13,4 +13,10 @@
 .btn--warning,
 .btn--info {
     font-family: 'Arial', sans-serif;
+    @include buttons;
+    
+}
+
+.grid__col--12 {
+    @include buttons-grid;
 }

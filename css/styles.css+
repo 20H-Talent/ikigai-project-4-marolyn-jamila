@@ -497,6 +497,11 @@ template {
 .grid__row {
   margin-bottom: 2em;
 }
+@media (min-width: 1400px) {
+  .grid__row {
+    display: flex;
+  }
+}
 
 .img--logo {
   margin: 2.5em 0;

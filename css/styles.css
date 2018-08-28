@@ -64,15 +64,6 @@ p {
   margin: 1.5em 0;
 }
 
-.nav {
-  margin-bottom: 4em;
-}
-
-@media (min-width: 1400px) {
-  .grid__row {
-    display: flex;
-  }
-}
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -432,6 +423,23 @@ template {
 .btn--info {
   font-family: "Arial", sans-serif;
 }
+@media (min-width: 1400px) {
+  .btn--default,
+.btn--success,
+.btn--error,
+.btn--warning,
+.btn--info {
+    margin: 1.5em;
+  }
+}
+
+@media (min-width: 1400px) {
+  .grid__col--12 {
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+  }
+}
 
 .form {
   display: flex;
@@ -502,6 +510,21 @@ template {
 .grid__row {
   margin-bottom: 2em;
 }
+@media (min-width: 1400px) {
+  .grid__row {
+    display: flex;
+  }
+}
+
+@media (min-width: 1400px) {
+  .grid__row.grid__col--3,
+.grid__row.grid__col--9 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
 
 .img--logo {
   margin: 2.5em 0;
@@ -520,12 +543,29 @@ a {
   color: grey;
 }
 
+.nav {
+  margin-bottom: 4em;
+}
+@media (min-width: 1400px) {
+  .nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0 2.5em;
+}
+@media (min-width: 1400px) {
+  .container {
+    margin: 1em 8em;
+  }
 }
 
 .blockquote {
