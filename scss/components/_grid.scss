@@ -18,7 +18,10 @@
 .grid__col--5.theme__colors,
 .grid__col--8.theme__colors,
 .grid__col--7.theme__colors { 
-    width: 400px;
+    width: 390px;
     @include grids;
+    color: gray;    
+    text-transform: lowercase;
+    font-size: $font-size;
 }
   
