@@ -75,10 +75,15 @@
         margin: 1.5em;
      }   
 }
+@mixin buttons-row {
+    @media (min-width: $break-L){
+        margin: 2em;
+     }  
+} 
 
 @mixin buttons-grid {
     @media (min-width: $break-L){
-        width: 1000px;
+        width: 100%;
         display: flex;
         justify-content: space-around;
     }
@@ -89,6 +94,17 @@
         margin: 0;
      }   
 }
+
+@mixin grids-media {
+    @media (min-width: $break-L){
+       width: 100%;
+       margin: 0.4em;
+       display: flex;
+       justify-content: center;
+     }      
+}
+
+
 
 //LOGO AND NAV ITEMS
 
@@ -109,5 +125,4 @@
     display:flex;
     justify-content: flex-start;
     align-items: center;
-    padding-left: .5em;
 }

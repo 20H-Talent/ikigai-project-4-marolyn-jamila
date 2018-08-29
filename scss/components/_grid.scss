@@ -1,9 +1,6 @@
 
 //list
 
-.grid__col--3 {
-    text-align: center;
-}
 
 @each $grid_co, $shade in $grid_colors {
     .grid__col--#{$grid_co}.theme__colors {
@@ -11,22 +8,24 @@
     }
 }
 
-.grid__col--12.theme__colors,
-.grid__col--6.theme__colors, 
-.grid__col--4.theme__colors,
-.grid__col--3.theme__colors,
-.grid__col--5.theme__colors,
-.grid__col--8.theme__colors,
-.grid__col--7.theme__colors { 
+.theme__colors,
+.theme__colors, 
+.theme__colors,
+.theme__colors,
+.theme__colors,
+.theme__colors,
+.theme__colors { 
     width: 390px;
     @include grids;
     color: gray;    
     text-transform: lowercase;
     font-size: $font-size;
+    @include grids-media;
 }
 
 
 //media querie for desktop
+
 .grid__row {
     margin-bottom: 2em;
     @include media;
@@ -35,11 +34,8 @@
 }
 
 
-// .grid__row.grid__col--3,
-// .grid__row.grid__col--9 {
-//     @include header;
-// }
 
-.grid__col--8 {
-    @include typography-media;
-}
+
+
+
+

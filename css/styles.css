@@ -435,7 +435,7 @@ template {
 
 @media (min-width: 1400px) {
   .grid__col--12 {
-    width: 1000px;
+    width: 100%;
     display: flex;
     justify-content: space-around;
   }
@@ -474,10 +474,6 @@ template {
   }
 }
 
-.grid__col--3 {
-  text-align: center;
-}
-
 .grid__col--12.theme__colors {
   background-color: #7eddc2;
 }
@@ -506,21 +502,34 @@ template {
   background-color: #fea088;
 }
 
-.grid__col--12.theme__colors,
-.grid__col--6.theme__colors,
-.grid__col--4.theme__colors,
-.grid__col--3.theme__colors,
-.grid__col--5.theme__colors,
-.grid__col--8.theme__colors,
-.grid__col--7.theme__colors {
+.theme__colors,
+.theme__colors,
+.theme__colors,
+.theme__colors,
+.theme__colors,
+.theme__colors,
+.theme__colors {
   width: 390px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding-left: 0.5em;
   color: gray;
   text-transform: lowercase;
   font-size: 1.2em;
+}
+@media (min-width: 1400px) {
+  .theme__colors,
+.theme__colors,
+.theme__colors,
+.theme__colors,
+.theme__colors,
+.theme__colors,
+.theme__colors {
+    width: 100%;
+    margin: 0.4em;
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .grid__row {
@@ -541,14 +550,9 @@ template {
   }
 }
 
-@media (min-width: 1400px) {
-  .grid__col--8 {
-    padding: 2.2em;
-  }
-}
-
 .img--logo {
-  margin: 2.5em 0;
+  margin: 2.5em auto;
+  display: block;
 }
 
 .img--frame {
