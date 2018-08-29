@@ -443,11 +443,19 @@ template {
 .form {
   display: flex;
   flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 @media (min-width: 1400px) {
   .form {
     padding: 2em;
   }
+}
+
+.form input {
+  width: 100%;
 }
 
 .form__label--hidden {
