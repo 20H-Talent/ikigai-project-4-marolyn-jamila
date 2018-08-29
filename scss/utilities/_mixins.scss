@@ -9,7 +9,7 @@
 
 @mixin body {
     @media (min-width: $break-L) {
-        margin: 1em 8em;
+        margin: 1em 4em;
     }
 }
 
@@ -22,19 +22,49 @@
     } 
 }
 
+@mixin headline-media {
+    @media (min-width: $break-L){
+       margin-bottom: 1em;
+     }   
+}
+@mixin typography-media {
+    @media (min-width: $break-L){
+        padding: 2.2em;
+     }   
+}
+
+@mixin form-media {
+    @media (min-width: $break-L) {
+        padding: 2em;
+    }
+}
+
+@mixin label-media {
+    @media (min-width: $break-L) {
+        margin: 0.8em 1em;
+    }  
+}
+
 @mixin buttons {
-    @media (min-width: 1400px){
+    @media (min-width: $break-L){
         margin: 1.5em;
      }   
 }
 
 @mixin buttons-grid {
-    @media (min-width: 1400px){
+    @media (min-width: $break-L){
         width: 1000px;
         display: flex;
         justify-content: space-around;
     }
 }
+
+@mixin login-button {
+    @media (min-width: $break-L){
+        margin: 0;
+     }   
+}
+
 //LOGO AND NAV ITEMS
 
 

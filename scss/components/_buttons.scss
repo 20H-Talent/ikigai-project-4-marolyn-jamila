@@ -20,3 +20,8 @@
 .grid__col--12 {
     @include buttons-grid;
 }
+
+
+.btn--default.theme__colors[type="submit"] {
+    @include login-button;
+}

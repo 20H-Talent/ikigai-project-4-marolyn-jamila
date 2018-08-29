@@ -1,7 +1,7 @@
 //form display
 .form {
  @include form;
-
+ @include form-media;
 }
 
 //form label
@@ -16,4 +16,6 @@
     padding-left: 0.8em;
     margin: 0.8em 0;
     font-size: 1em;
+    @include label-media;
 }
+
