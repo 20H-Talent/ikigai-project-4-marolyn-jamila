@@ -1,17 +1,6 @@
 //Inside your mixins partial, you’ll want to create mixins for:
 
 //Media Queries
-@mixin media {
-    @media (min-width: $break-L) {
-        display: flex;
-    }
-}
-
-@mixin body {
-    @media (min-width: $break-L) {
-        margin: 1em 8em;
-    }
-}
 
 @mixin grid {
     @media (min-width: $break-L) {
@@ -46,41 +35,13 @@
     }
 }
 
-
-
 @mixin headline {
     display: flex;
     justify-content: flex-start;
     width: 100%;
     
 }
-@mixin headline-media {
-    @media (min-width: $break-L){
-       margin-bottom: 1em;
-     }   
-}
-@mixin typography-media {
-    @media (min-width: $break-L){
-        padding: 2.2em;
-     }   
-}
 
-@mixin form-media {
-    @media (min-width: $break-L) {
-        padding: 2em;
-    }
-}
-
-@mixin label-media {
-    @media (min-width: $break-L) {
-        margin: 0.8em 1em;
-    }  
-}
-@mixin buttons {
-    @media (min-width: 1400px){
-        margin: 1.5em;
-     }   
-}
 @mixin buttons-row {
     @media (min-width: $break-L){
         margin: 2em;
@@ -88,24 +49,12 @@
 } 
 
 @mixin buttons-grid {
-<<<<<<< HEAD
     @media (min-width: $break-L){
         width: 100%;
-=======
-    @media (min-width: 1400px){
-        width: 1000px;
->>>>>>> 41152023ea67eda1ce7bc3c031fee87f5b1e98bb
         display: flex;
         justify-content: space-around;
     }
 }
-
-@mixin login-button {
-    @media (min-width: $break-L){
-        margin: 0;
-     }   
-}
-<<<<<<< HEAD
 
 @mixin grids-media {
     @media (min-width: $break-L){
@@ -117,9 +66,6 @@
 }
 
 
-
-=======
->>>>>>> 41152023ea67eda1ce7bc3c031fee87f5b1e98bb
 //LOGO AND NAV ITEMS
 
 

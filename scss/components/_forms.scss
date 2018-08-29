@@ -1,7 +1,11 @@
 //form display
 .form {
  @include form;
- @include form-media;
+ @mixin form-media {
+    @media (min-width: $break-L) {
+        padding: 2em;
+    }
+}
 }
 
 //form label
@@ -16,6 +20,10 @@
     padding-left: 0.8em;
     margin: 0.8em 0;
     font-size: 1em;
-    @include label-media;
+    @mixin label-media {
+        @media (min-width: $break-L) {
+            margin: 0.8em 1em;
+        }  
+    }
 }
 

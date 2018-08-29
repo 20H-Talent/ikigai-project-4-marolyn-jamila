@@ -5,7 +5,9 @@
     justify-content: center;
     align-items: center;
     margin: 0 2.5em;
-    @include body;
+    @media (min-width: $break-L) {
+        margin: 1em 8em;
+    }
 }
 
 //BLOCKQUOTE
@@ -44,5 +46,9 @@
 //headline media querie
 .headline--secondary {
     @include headline;
-    @include headline-media;
+    @mixin headline-media {
+        @media (min-width: $break-L){
+           margin-bottom: 1em;
+         }   
+    }
 }

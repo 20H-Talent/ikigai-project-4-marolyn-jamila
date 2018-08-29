@@ -8,12 +8,7 @@
     }
 }
 
-.theme__colors,
-.theme__colors, 
-.theme__colors,
-.theme__colors,
-.theme__colors,
-.theme__colors,
+
 .theme__colors { 
     width: 390px;
     @include grids;
@@ -28,7 +23,9 @@
 
 .grid__row {
     margin-bottom: 2em;
-    @include media;
+    @media (min-width: $break-L) {
+        display: flex;
+    }
     @include grid;
     
 }

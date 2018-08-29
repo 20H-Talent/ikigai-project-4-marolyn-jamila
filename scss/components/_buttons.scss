@@ -13,9 +13,12 @@
 .btn--warning,
 .btn--info {
     font-family: 'Arial', sans-serif;
-    @include buttons;
     color: white;
-    
+    @mixin buttons {
+        @media (min-width: 1400px){
+            margin: 1.5em;
+         }   
+    }
 }
 
 .grid__col--12 {
@@ -24,6 +27,10 @@
 
 
 .btn--default.theme__colors[type="submit"] {
-    @include login-button;
+    @mixin login-button {
+        @media (min-width: $break-L){
+            margin: 0;
+         }   
+    }
 }
 

@@ -424,15 +424,6 @@ template {
   font-family: "Arial", sans-serif;
   color: white;
 }
-@media (min-width: 1400px) {
-  .btn--default,
-.btn--success,
-.btn--error,
-.btn--warning,
-.btn--info {
-    margin: 1.5em;
-  }
-}
 
 @media (min-width: 1400px) {
   .grid__col--12 {
@@ -442,20 +433,9 @@ template {
   }
 }
 
-@media (min-width: 1400px) {
-  .btn--default.theme__colors[type=submit] {
-    margin: 0;
-  }
-}
-
 .form {
   display: flex;
   flex-direction: column;
-}
-@media (min-width: 1400px) {
-  .form {
-    padding: 2em;
-  }
 }
 
 .form__label--hidden {
@@ -468,11 +448,6 @@ template {
   padding-left: 0.8em;
   margin: 0.8em 0;
   font-size: 1em;
-}
-@media (min-width: 1400px) {
-  .form__input {
-    margin: 0.8em 1em;
-  }
 }
 
 .grid__col--12.theme__colors {
@@ -503,12 +478,6 @@ template {
   background-color: #fea088;
 }
 
-.theme__colors,
-.theme__colors,
-.theme__colors,
-.theme__colors,
-.theme__colors,
-.theme__colors,
 .theme__colors {
   width: 390px;
   display: flex;
@@ -519,13 +488,7 @@ template {
   font-size: 1.2em;
 }
 @media (min-width: 1400px) {
-  .theme__colors,
-.theme__colors,
-.theme__colors,
-.theme__colors,
-.theme__colors,
-.theme__colors,
-.theme__colors {
+  .theme__colors {
     width: 100%;
     margin: 0.4em;
     display: flex;
@@ -662,11 +625,6 @@ a {
   display: flex;
   justify-content: flex-start;
   width: 100%;
-}
-@media (min-width: 1400px) {
-  .headline--secondary {
-    margin-bottom: 1em;
-  }
 }
 
 /*# sourceMappingURL=styles.css.map */
