@@ -40,3 +40,8 @@
     font-size: 1.2em;
     font-weight: normal;
 }
+
+//headline media querie
+.headline--secondary {
+    @include headline;
+}
