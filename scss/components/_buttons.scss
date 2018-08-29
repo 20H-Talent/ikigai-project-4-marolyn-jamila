@@ -7,11 +7,9 @@
         background-color: $color;
     }
 }
-.btn--default,
-.btn--success,
-.btn--error,
-.btn--warning,
-.btn--info {
+
+
+[class^="btn--"]{
     font-family: 'Arial', sans-serif;
     color: white;
     @mixin buttons {
@@ -19,8 +17,8 @@
             margin: 1.5em;
          }   
     }
+    text-transform: uppercase;
 }
-
 .grid__col--12 {
     @include buttons-grid;
 }

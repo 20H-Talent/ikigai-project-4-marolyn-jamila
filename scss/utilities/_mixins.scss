@@ -56,6 +56,12 @@
     }
 }
 
+@mixin login-button {
+    @media (min-width: $break-L){
+        margin: 0;
+     }   
+}
+
 @mixin grids-media {
     @media (min-width: $break-L){
        width: 100%;
@@ -66,6 +72,10 @@
 }
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 26311d9dbcb368072275b315088fee9ef7397576
 //LOGO AND NAV ITEMS
 
 
@@ -83,6 +93,6 @@
 
 @mixin grids {
     display:flex;
+    flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
 }

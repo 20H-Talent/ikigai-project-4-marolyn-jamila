@@ -1,11 +1,15 @@
 //form display
 .form {
  @include form;
- @mixin form-media {
-    @media (min-width: $break-L) {
-        padding: 2em;
-    }
+ @include form-media;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
 }
+
+.form input {
+    width: 100%;
 }
 
 //form label

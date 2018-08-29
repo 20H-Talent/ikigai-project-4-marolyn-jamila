@@ -8,16 +8,17 @@
     }
 }
 
-
 .theme__colors { 
-    width: 390px;
-    @include grids;
-    color: gray;    
-    text-transform: lowercase;
+    width: 390px; 
     font-size: $font-size;
     @include grids-media;
 }
 
+[class^="grid__col--"]{
+    color: grey;
+    padding-left: 0.5em;
+    padding-top: 0.85em;
+}
 
 //media querie for desktop
 

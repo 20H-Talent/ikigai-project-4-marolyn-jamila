@@ -27,10 +27,9 @@ a:hover, li:hover {
 .theme__colors {
   text-decoration: none;
   width: 100%;
-  height: 2.7em;
+  height: 2.5em;
   border-radius: 0.2em;
   color: white;
-  text-transform: uppercase;
   font-weight: bold;
   font-size: 1em;
   margin: 0.7em 0;
@@ -416,14 +415,19 @@ template {
   background-color: #927BC1;
 }
 
-.btn--default,
-.btn--success,
-.btn--error,
-.btn--warning,
-.btn--info {
+[class^=btn--] {
   font-family: "Arial", sans-serif;
   color: white;
+  text-transform: uppercase;
 }
+<<<<<<< HEAD
+=======
+@media (min-width: 1400px) {
+  [class^=btn--] {
+    margin: 1.5em;
+  }
+}
+>>>>>>> 26311d9dbcb368072275b315088fee9ef7397576
 
 @media (min-width: 1400px) {
   .grid__col--12 {
@@ -436,6 +440,14 @@ template {
 .form {
   display: flex;
   flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form input {
+  width: 100%;
 }
 
 .form__label--hidden {
@@ -480,11 +492,6 @@ template {
 
 .theme__colors {
   width: 390px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  color: gray;
-  text-transform: lowercase;
   font-size: 1.2em;
 }
 @media (min-width: 1400px) {
@@ -494,6 +501,12 @@ template {
     display: flex;
     justify-content: center;
   }
+}
+
+[class^=grid__col--] {
+  color: grey;
+  padding-left: 0.5em;
+  padding-top: 0.85em;
 }
 
 .grid__row {
