@@ -27,10 +27,9 @@ a:hover, li:hover {
 .theme__colors {
   text-decoration: none;
   width: 100%;
-  height: 2.7em;
+  height: 2.5em;
   border-radius: 0.2em;
   color: white;
-  text-transform: uppercase;
   font-weight: bold;
   font-size: 1em;
   margin: 0.7em 0;
@@ -416,20 +415,13 @@ template {
   background-color: #927BC1;
 }
 
-.btn--default,
-.btn--success,
-.btn--error,
-.btn--warning,
-.btn--info {
+[class^=btn--] {
   font-family: "Arial", sans-serif;
   color: white;
+  text-transform: uppercase;
 }
 @media (min-width: 1400px) {
-  .btn--default,
-.btn--success,
-.btn--error,
-.btn--warning,
-.btn--info {
+  [class^=btn--] {
     margin: 1.5em;
   }
 }
@@ -503,34 +495,23 @@ template {
   background-color: #fea088;
 }
 
-.theme__colors,
-.theme__colors,
-.theme__colors,
-.theme__colors,
-.theme__colors,
-.theme__colors,
 .theme__colors {
   width: 390px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  color: gray;
-  text-transform: lowercase;
   font-size: 1.2em;
 }
 @media (min-width: 1400px) {
-  .theme__colors,
-.theme__colors,
-.theme__colors,
-.theme__colors,
-.theme__colors,
-.theme__colors,
-.theme__colors {
+  .theme__colors {
     width: 100%;
     margin: 0.4em;
     display: flex;
     justify-content: center;
   }
+}
+
+[class^=grid__col--] {
+  color: grey;
+  padding-left: 0.5em;
+  padding-top: 0.85em;
 }
 
 .grid__row {

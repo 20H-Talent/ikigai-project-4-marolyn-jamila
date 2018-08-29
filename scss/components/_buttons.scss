@@ -7,17 +7,14 @@
         background-color: $color;
     }
 }
-.btn--default,
-.btn--success,
-.btn--error,
-.btn--warning,
-.btn--info {
+
+
+[class^="btn--"]{
     font-family: 'Arial', sans-serif;
     @include buttons;
     color: white;
-    
+    text-transform: uppercase;
 }
-
 .grid__col--12 {
     @include buttons-grid;
 }

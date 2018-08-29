@@ -88,13 +88,8 @@
 } 
 
 @mixin buttons-grid {
-<<<<<<< HEAD
     @media (min-width: $break-L){
         width: 100%;
-=======
-    @media (min-width: 1400px){
-        width: 1000px;
->>>>>>> 41152023ea67eda1ce7bc3c031fee87f5b1e98bb
         display: flex;
         justify-content: space-around;
     }
@@ -105,7 +100,6 @@
         margin: 0;
      }   
 }
-<<<<<<< HEAD
 
 @mixin grids-media {
     @media (min-width: $break-L){
@@ -118,8 +112,6 @@
 
 
 
-=======
->>>>>>> 41152023ea67eda1ce7bc3c031fee87f5b1e98bb
 //LOGO AND NAV ITEMS
 
 
@@ -137,6 +129,6 @@
 
 @mixin grids {
     display:flex;
+    flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
 }
