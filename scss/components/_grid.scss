@@ -35,11 +35,6 @@
 }
 
 
-.grid__row.grid__col--3,
-.grid__row.grid__col--9 {
-    @include header;
-}
-
 .grid__col--8 {
     @include typography-media;
 }
