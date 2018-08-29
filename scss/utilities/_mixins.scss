@@ -9,7 +9,7 @@
 
 @mixin body {
     @media (min-width: $break-L) {
-        margin: 1em 4em;
+        margin: 1em 8em;
     }
 }
 
@@ -23,10 +23,17 @@
     }
 }
 
+
+@mixin width {
+    @media (min-width: $break-L) {
+        width: 75%;
+    }
+}
+
 @mixin nav {
     @media (min-width: $break-L) {
         vertical-align: middle;
-        margin: 0 2em;
+        margin: 0;
     }
 }
 
@@ -69,15 +76,14 @@
         margin: 0.8em 1em;
     }  
 }
-
 @mixin buttons {
-    @media (min-width: $break-L){
+    @media (min-width: 1400px){
         margin: 1.5em;
      }   
 }
 
 @mixin buttons-grid {
-    @media (min-width: $break-L){
+    @media (min-width: 1400px){
         width: 1000px;
         display: flex;
         justify-content: space-around;
@@ -89,7 +95,6 @@
         margin: 0;
      }   
 }
-
 //LOGO AND NAV ITEMS
 
 

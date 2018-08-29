@@ -2,6 +2,9 @@
 //logo
 .img--logo {
     margin: 2.5em 0;
+    @media (min-width: $break-L) {
+        margin-left: 5%;
+    }
 }
 
 .img--frame {
@@ -9,4 +12,15 @@
     padding: 1em;
     border: 1px solid #d9d9d9; 
     margin-bottom: 20px;
+    @media (min-width: $break-L) {
+        margin-left: 25%;
+    }
 }
+
+.img--avatar {
+    @media (min-width: $break-L) {
+        margin-right: 25%;
+        }
+}
+
+

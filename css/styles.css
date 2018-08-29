@@ -422,6 +422,7 @@ template {
 .btn--warning,
 .btn--info {
   font-family: "Arial", sans-serif;
+  color: white;
 }
 @media (min-width: 1400px) {
   .btn--default,
@@ -550,12 +551,28 @@ template {
 .img--logo {
   margin: 2.5em 0;
 }
+@media (min-width: 1400px) {
+  .img--logo {
+    margin-left: 5%;
+  }
+}
 
 .img--frame {
   width: 90%;
   padding: 1em;
   border: 1px solid #d9d9d9;
   margin-bottom: 20px;
+}
+@media (min-width: 1400px) {
+  .img--frame {
+    margin-left: 25%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .img--avatar {
+    margin-right: 25%;
+  }
 }
 
 a {
@@ -579,7 +596,12 @@ a {
 @media (min-width: 1400px) {
   .nav {
     vertical-align: middle;
-    margin: 0 2em;
+    margin: 0;
+  }
+}
+@media (min-width: 1400px) {
+  .nav {
+    margin-right: 5%;
   }
 }
 
@@ -601,7 +623,7 @@ a {
 }
 @media (min-width: 1400px) {
   .container {
-    margin: 1em 4em;
+    margin: 1em 8em;
   }
 }
 
