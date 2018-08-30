@@ -14,11 +14,12 @@
     @include grids-media;
 }
 
-[class^="grid__col--"]{
+[class*="grid__col--"]{
     color: grey;
     padding-left: 0.5em;
     padding-top: 0.85em;
 }
+
 
 //media querie for desktop
 
@@ -33,13 +34,21 @@
 
 .grid__col--9 {
     @media (min-width: $break-L) {
-        margin-right: 10em;
+        margin-right: 7.5em;
     }
-    //we used directly grid-col 'cause .nav and pseudo class didn´t work
 }
 
 
+@for $i from 2 through 12 {
+    @media (min-width: $break-L) {
+        .grid__col--#{$i}.theme__colors {
+            width: f-grids($i);
+        }
+    }
+}
 
-
-
-
+.centered {
+    @media (min-width: $break-L) {
+        margin: auto;
+    }
+}

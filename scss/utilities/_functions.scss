@@ -1,2 +1,5 @@
 //function for grids in media query of 1400px
+@function f-grids ($col) {
+   @return (($col * 100%) / 12) - (1%);
 
+}

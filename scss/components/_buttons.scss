@@ -14,7 +14,7 @@
     color: white;
     @mixin buttons {
         @media (min-width: 1400px){
-            margin: 1.5em;
+            margin: 4em;
          }   
     }
     text-transform: uppercase;
@@ -23,6 +23,9 @@
     @include buttons-grid;
 }
 
+.grid__col--12 > button {
+    margin-right: 2em;
+}
 
 .btn--default.theme__colors[type="submit"] {
     @mixin login-button {
