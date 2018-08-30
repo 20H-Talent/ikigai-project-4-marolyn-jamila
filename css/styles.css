@@ -5,11 +5,7 @@
   text-decoration: none;
 }
 
-<<<<<<< HEAD
-a, li {
-=======
 .nav a, li {
->>>>>>> ccc206ee1de9d23e71631635f9301f095f6c735b
   font-family: "Helvetica Neue";
   color: grey;
   font-size: 1.2em;
@@ -447,7 +443,7 @@ p {
 
 @media (min-width: 1400px) {
   .btn--default.theme__colors[type=submit] {
-    margin: 0;
+    margin: 1.1em;
   }
 }
 
