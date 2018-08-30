@@ -6,7 +6,7 @@
 }
 
 .nav a, li {
-  font-family: "Neue Helvetica";
+  font-family: "Helvetica Neue";
   color: grey;
   font-size: 1.2em;
 }
@@ -391,7 +391,7 @@ li {
 p {
   font-size: 1.2em;
   color: #8c969d;
-  font-family: "Neue Helvetica";
+  font-family: "Helvetica Neue";
   margin: 1.5em 0;
 }
 
@@ -420,6 +420,11 @@ p {
   color: white;
   text-transform: uppercase;
 }
+@media (min-width: 1400px) {
+  [class^=btn--] {
+    margin: 4em;
+  }
+}
 
 @media (min-width: 1400px) {
   .grid__col--12 {
@@ -429,8 +434,17 @@ p {
   }
 }
 
-.grid__col--12 > button {
-  margin-right: 2em;
+@media (min-width: 1400px) {
+  .grid__col--12 > button {
+    margin-right: 2em;
+    margin-left: 1em;
+  }
+}
+
+@media (min-width: 1400px) {
+  .btn--default.theme__colors[type=submit] {
+    margin: 0;
+  }
 }
 
 .form {
@@ -512,7 +526,7 @@ p {
 
 [class*=grid__col--] {
   color: grey;
-  padding-left: 1.8em;
+  padding-left: 0.5em;
   padding-top: 0.85em;
 }
 
@@ -680,7 +694,7 @@ p {
   margin: 1em 2em;
   padding-left: 1em;
   font-size: 1.5em;
-  font-family: "Neue Helvetica";
+  font-family: "Helvetica Neue";
   color: #8c969d;
   font-style: italic;
   border-left: 0.4em #58E1C1 solid;

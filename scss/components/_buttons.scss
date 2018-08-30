@@ -6,28 +6,29 @@
   }
 }
 
+
 [class^="btn--"] {
   font-family: "Arial", sans-serif;
   color: white;
-  @mixin buttons {
+  text-transform: uppercase;
     @media (min-width: 1400px) {
       margin: 4em;
     }
-  }
-  text-transform: uppercase;
 }
+
 .grid__col--12 {
   @include buttons-grid;
 }
 
-.grid__col--12 > button {
-  margin-right: 2em;
+ .grid__col--12 > button {
+   @media (min-width: $break-L) {
+   margin-right: 2em;
+   margin-left: 1em;
+  }
 }
 
 .btn--default.theme__colors[type="submit"] {
-  @mixin login-button {
     @media (min-width: $break-L) {
       margin: 0;
     }
-  }
 }
