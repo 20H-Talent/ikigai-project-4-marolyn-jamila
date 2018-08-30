@@ -13,12 +13,11 @@ a {
     margin-bottom: 4em;
     @include grid;
     @include nav;
-    @media (min-width: $break-L) {
-        margin-right: 5%;
-    }
 }
 
+}
 .nav__item {
     @include li;
 }
+
 
