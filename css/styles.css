@@ -437,9 +437,20 @@ template {
   justify-content: center;
   align-items: center;
 }
+@media (min-width: 1400px) {
+  .form {
+    padding-top: 5em;
+    padding-left: 3em;
+  }
+}
 
 .form input {
   width: 100%;
+}
+@media (min-width: 1400px) {
+  .form input {
+    margin: 0.4em 0em;
+  }
 }
 
 .form__label--hidden {
@@ -489,7 +500,7 @@ template {
 @media (min-width: 1400px) {
   .theme__colors {
     width: 100%;
-    margin: 0.4em;
+    margin: 1.4em;
     display: flex;
     justify-content: center;
   }
@@ -626,11 +637,17 @@ a {
   font-size: 1.2em;
   font-weight: normal;
 }
+@media (min-width: 1400px) {
+  .headline--secondary {
+    width: 100%;
+    margin: 20px 0;
+  }
+}
 
-.headline--secondary {
-  display: flex;
-  justify-content: flex-start;
-  width: 100%;
+@media (min-width: 1400px) {
+  .card {
+    padding-right: 3em;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
