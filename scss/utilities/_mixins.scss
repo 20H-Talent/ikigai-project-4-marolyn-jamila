@@ -65,17 +65,12 @@
 @mixin grids-media {
     @media (min-width: $break-L){
        width: 100%;
-       margin: 0.4em;
+       margin: 1.4em;
        display: flex;
        justify-content: center;
      }      
 }
 
-
-<<<<<<< HEAD
-=======
-
->>>>>>> 26311d9dbcb368072275b315088fee9ef7397576
 //LOGO AND NAV ITEMS
 
 

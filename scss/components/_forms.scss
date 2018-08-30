@@ -1,11 +1,13 @@
 //form display
 .form {
  @include form;
- @include form-media;
  display: flex;
  flex-direction: column;
  justify-content: center;
  align-items: center;
+//  @media (min-width: $break-L) {
+//    padding-top: 3em;
+// }  
 }
 
 .form input {
