@@ -42,6 +42,22 @@
     
 }
 
+@mixin typography-desktop {
+    @media (min-width: $break-L){
+       .headline--primary {
+           font-size: 2.3em;
+       }
+
+       p {
+           font-size: 1.07em;
+       }
+
+       .blockquote {
+           font-size: 1.5em;
+       }
+     }  
+}
+
 @mixin buttons-row {
     @media (min-width: $break-L){
         margin: 2em;

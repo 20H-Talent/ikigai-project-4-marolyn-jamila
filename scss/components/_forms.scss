@@ -6,7 +6,7 @@
  justify-content: center;
  align-items: center;
  @media (min-width: $break-L) {
-   padding-top: 5em;
+   padding-top: 1em;
    padding-left: 3em;
 }  
 }
@@ -15,6 +15,7 @@
     width: 100%;
     @media (min-width: $break-L) {
         margin: 0.4em 0em;
+        width: 84%;
     }  
 }
 

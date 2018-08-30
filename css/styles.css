@@ -6,7 +6,7 @@
 }
 
 a, li {
-  font-family: "Neue Helvetica";
+  font-family: "Helvetica Neue";
   color: grey;
   font-size: 1.2em;
 }
@@ -391,7 +391,7 @@ li {
 p {
   font-size: 1.2em;
   color: #8c969d;
-  font-family: "Neue Helvetica";
+  font-family: "Helvetica Neue";
   margin: 1.5em 0;
 }
 
@@ -443,7 +443,7 @@ p {
 }
 @media (min-width: 1400px) {
   .form {
-    padding-top: 5em;
+    padding-top: 1em;
     padding-left: 3em;
   }
 }
@@ -454,6 +454,7 @@ p {
 @media (min-width: 1400px) {
   .form input {
     margin: 0.4em 0em;
+    width: 84%;
   }
 }
 
@@ -626,6 +627,8 @@ p {
 @media (min-width: 1400px) {
   .img--avatar {
     margin-right: 7.5em;
+    width: 150px;
+    height: 150px;
   }
 }
 
@@ -680,7 +683,7 @@ a {
   margin: 1em 2em;
   padding-left: 1em;
   font-size: 1.5em;
-  font-family: "Neue Helvetica";
+  font-family: "Helvetica Neue";
   color: #8c969d;
   font-style: italic;
   border-left: 0.4em #58E1C1 solid;
@@ -691,6 +694,11 @@ a {
   margin: 0 20px;
   color: #7eddc2;
   font-size: 2.5em;
+}
+@media (min-width: 1400px) {
+  .headline--primary {
+    font-size: 2.3em;
+  }
 }
 
 .headline--secondary {
@@ -705,13 +713,20 @@ a {
 @media (min-width: 1400px) {
   .headline--secondary {
     width: 100%;
-    margin: 20px 0;
+    margin: 0.5em 0;
+    padding: 1.2em;
   }
 }
 
-@media (min-width: 1400px) {
-  .card {
-    padding-right: 3em;
+@media (min-width: 1400px) and (min-width: 1400px) {
+  .card .headline--primary {
+    font-size: 2.3em;
+  }
+  .card p {
+    font-size: 1.07em;
+  }
+  .card .blockquote {
+    font-size: 1.5em;
   }
 }
 
