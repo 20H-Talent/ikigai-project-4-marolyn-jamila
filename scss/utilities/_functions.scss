@@ -1,12 +1,2 @@
 //function for grids in media query of 1400px
-.grid__row {
-    @function dividing-grids($item) {
-        $the-col: 100% / 12;
-        @return ($the-col * $item);
-    }
-    
-}
 
-.centered {
-    width:  70%;
-}

@@ -520,8 +520,8 @@ template {
 }
 
 @media (min-width: 1400px) {
-  .gird__col--9 {
-    margin-right: 7em;
+  .grid__col--9 {
+    margin-right: 10em;
   }
 }
 
@@ -575,11 +575,6 @@ a {
   .nav {
     vertical-align: middle;
     margin: 0;
-  }
-}
-@media (min-width: 1400px) {
-  .nav {
-    margin-right: 5%;
   }
 }
 
