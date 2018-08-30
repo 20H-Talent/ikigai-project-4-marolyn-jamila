@@ -5,13 +5,13 @@
   text-decoration: none;
 }
 
-a, li {
+.nav a, li {
   font-family: "Neue Helvetica";
   color: grey;
   font-size: 1.2em;
 }
 
-a:hover, li:hover {
+.nav a:hover, li:hover {
   background-color: #7eddc2;
   border-radius: 0.3em;
   margin: 0 2em;
@@ -629,7 +629,7 @@ p {
   }
 }
 
-a {
+.nav a {
   text-decoration: none;
   list-style-type: none;
   color: grey;

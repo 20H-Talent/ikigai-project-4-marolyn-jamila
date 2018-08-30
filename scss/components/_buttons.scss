@@ -1,37 +1,33 @@
-
 //button for the form
 
-
 @each $style, $color in $btn-color {
-    .btn--#{$style}{
-        background-color: $color;
-    }
+  .btn--#{$style} {
+    background-color: $color;
+  }
 }
 
-
-[class^="btn--"]{
-    font-family: 'Arial', sans-serif;
-    color: white;
-    @mixin buttons {
-        @media (min-width: 1400px){
-            margin: 4em;
-         }   
+[class^="btn--"] {
+  font-family: "Arial", sans-serif;
+  color: white;
+  @mixin buttons {
+    @media (min-width: 1400px) {
+      margin: 4em;
     }
-    text-transform: uppercase;
+  }
+  text-transform: uppercase;
 }
 .grid__col--12 {
-    @include buttons-grid;
+  @include buttons-grid;
 }
 
 .grid__col--12 > button {
-    margin-right: 2em;
+  margin-right: 2em;
 }
 
 .btn--default.theme__colors[type="submit"] {
-    @mixin login-button {
-        @media (min-width: $break-L){
-            margin: 0;
-         }   
+  @mixin login-button {
+    @media (min-width: $break-L) {
+      margin: 0;
     }
+  }
 }
-

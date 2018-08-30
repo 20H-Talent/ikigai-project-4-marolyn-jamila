@@ -38,7 +38,6 @@
     }
 }
 
-
 @for $i from 2 through 12 {
     @media (min-width: $break-L) {
         .grid__col--#{$i}.theme__colors {
