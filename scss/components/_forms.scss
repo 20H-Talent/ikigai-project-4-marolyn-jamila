@@ -5,13 +5,17 @@
  flex-direction: column;
  justify-content: center;
  align-items: center;
-//  @media (min-width: $break-L) {
-//    padding-top: 3em;
-// }  
+ @media (min-width: $break-L) {
+   padding-top: 5em;
+   padding-left: 3em;
+}  
 }
 
 .form input {
     width: 100%;
+    @media (min-width: $break-L) {
+        margin: 0.4em 0em;
+    }  
 }
 
 //form label

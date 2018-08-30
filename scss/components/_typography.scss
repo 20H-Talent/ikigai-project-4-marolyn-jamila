@@ -43,9 +43,15 @@
     font-weight: normal;
     @media (min-width: $break-L) {
        width: 100%;
+       margin: 20px 0;
     }
 }
 
 
 
 //typography desktop layout
+.card {
+    @media (min-width: $break-L) {
+        padding-right: 3em;
+     }
+}

@@ -437,9 +437,20 @@ template {
   justify-content: center;
   align-items: center;
 }
+@media (min-width: 1400px) {
+  .form {
+    padding-top: 5em;
+    padding-left: 3em;
+  }
+}
 
 .form input {
   width: 100%;
+}
+@media (min-width: 1400px) {
+  .form input {
+    margin: 0.4em 0em;
+  }
 }
 
 .form__label--hidden {
@@ -628,6 +639,13 @@ a {
 @media (min-width: 1400px) {
   .headline--secondary {
     width: 100%;
+    margin: 20px 0;
+  }
+}
+
+@media (min-width: 1400px) {
+  .card {
+    padding-right: 3em;
   }
 }
 
