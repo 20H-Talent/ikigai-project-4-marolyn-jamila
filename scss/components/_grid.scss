@@ -31,6 +31,12 @@
     
 }
 
+.gird__col--9 {
+    @media (min-width: $break-L) {
+        margin-right: 7em;
+    }
+    //we used directly grid-col 'cause .nav and pseudo class didn´t work
+}
 
 
 

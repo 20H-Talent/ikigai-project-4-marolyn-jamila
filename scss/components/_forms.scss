@@ -1,7 +1,6 @@
 //form display
 .form {
  @include form;
- @include form-media;
  display: flex;
  flex-direction: column;
  justify-content: center;
