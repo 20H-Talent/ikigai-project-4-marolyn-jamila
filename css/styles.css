@@ -1,3 +1,7 @@
+.centered {
+  width: 70%;
+}
+
 .card .link {
   color: #51DDFC;
   font-weight: bold;
@@ -586,11 +590,6 @@ a {
   .nav {
     vertical-align: middle;
     margin: 0;
-  }
-}
-@media (min-width: 1400px) {
-  .nav {
-    margin-right: 5%;
   }
 }
 
