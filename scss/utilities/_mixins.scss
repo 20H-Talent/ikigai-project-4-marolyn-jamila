@@ -72,11 +72,6 @@
     }
 }
 
-@mixin login-button {
-    @media (min-width: $break-L){
-        margin: 0;
-     }   
-}
 
 @mixin grids-media {
     @media (min-width: $break-L){
